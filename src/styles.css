@@ -482,6 +482,33 @@ h2 em {
   margin: 0 auto;
 }
 
+.about-section {
+  background: var(--brand-strong);
+  color: var(--white);
+}
+
+.about-section .section-heading h2,
+.about-section .section-heading .eyebrow,
+.about-section .credentials dt,
+.about-section .text-link {
+  color: var(--white);
+}
+
+.about-section .lead-copy,
+.about-section .credentials dd,
+.about-section .image-caption {
+  color: #D1DDE3;
+}
+
+.about-section .credentials,
+.about-section .credentials div {
+  border-color: rgba(255, 255, 255, .25);
+}
+
+.about-section .text-link {
+  border-color: var(--white);
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;

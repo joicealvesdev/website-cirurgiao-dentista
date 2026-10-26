@@ -131,39 +131,41 @@ function App() {
           </div>
         </section>
 
-        <section className="section-wrap about section-pad" id="sobre">
-          <div className="about-image">
-            <img
-              src={siteConfig.portraitImage}
-              alt="Retrato profissional do cirurgião-dentista"
-            />
-            <span className="image-caption"></span>
-          </div>
-          <div className="about-copy">
-            <TituloSecao
-              eyebrow="Sobre o profissional"
-              title="Técnica apurada. Presença humana."
-              description=""
-            />
-            <p className="lead-copy">
-              Atendimento humanizado, com atenção às necessidades de cada
-              paciente e cuidado em todas as etapas. O objetivo é proporcionar
-              uma experiência tranquila, segura e acolhedora.
-            </p>
-            <dl className="credentials">
-              <div>
-                <dt>Formação</dt>
-                <dd>Cirurgião Dentista - Universidade de Pernambuco </dd>
-              </div>
+        <section className="about-section section-pad" id="sobre">
+          <div className="section-wrap about">
+            <div className="about-image">
+              <img
+                src={siteConfig.portraitImage}
+                alt="Retrato profissional do cirurgião-dentista"
+              />
+              <span className="image-caption"></span>
+            </div>
+            <div className="about-copy">
+              <TituloSecao
+                eyebrow="Sobre o profissional"
+                title="Técnica apurada. Presença humana."
+                description=""
+              />
+              <p className="lead-copy">
+                Atendimento humanizado, com atenção às necessidades de cada
+                paciente e cuidado em todas as etapas. O objetivo é proporcionar
+                uma experiência tranquila, segura e acolhedora.
+              </p>
+              <dl className="credentials">
+                <div>
+                  <dt>Formação</dt>
+                  <dd>Cirurgião Dentista - Universidade de Pernambuco </dd>
+                </div>
 
-              <div>
-                <dt>Registro</dt>
-                <dd>{siteConfig.registration}</dd>
-              </div>
-            </dl>
-            <a className="text-link" href="#contato">
-              Fale com o consultório <ArrowUpRight size={16} />
-            </a>
+                <div>
+                  <dt>Registro</dt>
+                  <dd>{siteConfig.registration}</dd>
+                </div>
+              </dl>
+              <a className="text-link" href="#contato">
+                Fale com o consultório <ArrowUpRight size={16} />
+              </a>
+            </div>
           </div>
         </section>
 
