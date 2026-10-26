@@ -140,7 +140,6 @@ function App() {
                 src={siteConfig.portraitImage}
                 alt="Retrato profissional do cirurgião-dentista"
               />
-              <span className="image-caption"></span>
             </div>
             <div className="about-copy">
               <TituloSecao
@@ -205,7 +204,6 @@ function App() {
                 title="Aprender também é cuidar."
                 description="Uma seleção de formações, encontros e experiências que ampliam o olhar sobre a odontologia."
               />
-              <span className="section-index"></span>
             </div>
             <CarrosselConquistas items={achievements} />
           </div>
