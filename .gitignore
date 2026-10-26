@@ -1,3 +1,5 @@
 
 .vscode/
 *_Zone.Identifier
+node_modules/
+dist/

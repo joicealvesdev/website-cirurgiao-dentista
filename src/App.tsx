@@ -6,6 +6,8 @@ import { CarrosselConquistas } from "./components/CarrosselConquistas";
 import { TituloSecao } from "./components/TituloSecao";
 import type { Achievement, Specialty, Testimonial } from "./types";
 
+const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 const siteConfig = {
   professionalName: "José Artur Cirurgião Dentista",
   shortName: "José Artur Cirurgião Dentista",
@@ -22,8 +24,8 @@ const siteConfig = {
   mapLink: "https://www.google.com/maps/search/?api=1&query=Belo+Jardim%2C+PE",
   instagramLink: "https://www.instagram.com/arturalvzz/",
   hours: "Seg a Sex, 8h às 18h",
-  heroImage: "/foto-artur-alves.jpeg",
-  portraitImage: "/artur-alves-cirurgia.png",
+  heroImage: publicAsset("foto-artur-alves.jpeg"),
+  portraitImage: publicAsset("artur-alves-cirurgia.png"),
 };
 
 const whatsappLink = `https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappMessage)}`;
@@ -46,14 +48,14 @@ const achievements: Achievement[] = [
     institution: "Universidade de Pernambuco",
     year: "2023-2024",
     description: "Avaliação da atividade antimicrobiana do extrato da casca de Cenostigma nordestinum frente a biofilmes orais",
-    image: "/laboratorio-jose-artur.jpg",
+    image: publicAsset("laboratorio-jose-artur.jpg"),
   },
   {
     title: "OdontoAção",
     institution: "Universidade de Pernambuco",
     year: "2023-2024",
     description: "OdontoAção: prevenção, diagnóstico e tratamento das lesões bucais na população do sertão pernambucano",
-    image: "/odontoacao.png",
+    image: publicAsset("odontoacao.png"),
   },
  
 ];
@@ -287,7 +289,7 @@ function App() {
         <div className="section-wrap footer-grid">
           <div>
             <a className="brand brand--footer" href="#inicio">
-              <img className="brand-mark" src="/dente.svg" alt="" />
+              <img className="brand-mark" src={`${import.meta.env.BASE_URL}dente.svg`} alt="" />
               <span>{siteConfig.shortName}</span>
             </a>
             <p className="footer-note">

@@ -21,7 +21,7 @@ export function Cabecalho({ nomeCurto, linkWhatsApp }: CabecalhoProps) {
   return (
     <header className="site-header">
       <a className="brand" href="#inicio" aria-label="Voltar ao início">
-        <img className="brand-mark" src="/dente.svg" alt="" />
+        <img className="brand-mark" src={`${import.meta.env.BASE_URL}dente.svg`} alt="" />
         <span>{nomeCurto}</span>
       </a>
       <button className="menu-toggle" type="button" aria-expanded={isOpen} aria-controls="main-navigation" onClick={() => setIsOpen(!isOpen)}>

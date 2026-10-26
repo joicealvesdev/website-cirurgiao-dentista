@@ -49,6 +49,12 @@ Este trabalho demonstra:
 
 Em desenvolvimento / pronto para apresentação profissional.
 
+## Publicação no GitHub Pages
+
+O workflow em `.github/workflows/deploy-pages.yml` compila e publica automaticamente o conteúdo de `dist` ao enviar alterações para `main` ou `master`.
+
+No GitHub, abra **Settings > Pages** e selecione **GitHub Actions** como fonte de publicação. O caminho base do Vite está configurado para o repositório `-website-cirurgiao-dentista`; se o nome do repositório mudar, atualize `base` em `vite.config.ts`.
+
 ## Repositório
 
 - Projeto: joicealvesdev/-website-cirurgiao-dentista
