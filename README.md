@@ -5,7 +5,8 @@ Landing page profissional criada em React + TypeScript com foco em conversão pa
 
 ## Prévia do projeto
 
-<img width="1633" height="670" alt="preview-site-dr-jose-artur png" src="https://github.com/user-attachments/assets/05de739b-9969-4424-b65d-edc92b030000" />
+<img width="3804" height="944" alt="preview-site-dr-jose-artur" src="https://github.com/user-attachments/assets/cd10b37b-0252-47f1-a768-658e676e2989" />
+
 
 
 
