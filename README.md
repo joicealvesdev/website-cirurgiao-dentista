@@ -5,7 +5,7 @@ Landing page profissional criada em React + TypeScript com foco em conversão pa
 
 ## Prévia do projeto
 
-![Site profissional do Dr. José Artur — versões clara e escura](./public/preview-site-dr-jose-artur.png)
+![](./public/preview-site-dr-jose-artur.png)
 
 ## Visão geral
 
