@@ -1,6 +1,10 @@
 # Site institucional para cirurgião-dentista
 
-Web site profissional criado em React + TypeScript com foco em conversão para agendamento por WhatsApp, apresentação da formação e áreas de atuação, além de reforçar a confiança em um consultório odontológico.
+Landing page profissional criada em React + TypeScript com foco em conversão para agendamento por WhatsApp, apresentação da formação e áreas de atuação, além de reforçar a confiança em um consultório odontológico.
+
+## Prévia do projeto
+
+<img width="3804" height="944" alt="preview-site-dr-jose-artur" src="https://github.com/user-attachments/assets/cd10b37b-0252-47f1-a768-658e676e2989" />
 
 ## Visão geral
 
