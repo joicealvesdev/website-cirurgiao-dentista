@@ -2,6 +2,11 @@
 
 Landing page desenvolvida para um cirurgião-dentista com foco em conversão, autoridade profissional e agendamento direto por WhatsApp.
 
+## Preview do projeto
+
+<img width="3804" height="944" alt="preview-site-dr-jose-artur" src="https://github.com/user-attachments/assets/d4950b50-85b5-4d15-862d-0a6afbb17cc6" />
+
+
 ## Sobre o projeto
 
 Este projeto foi criado para apresentar o perfil de um profissional da odontologia de forma moderna, clara e persuasiva. A interface combina estética premium, comunicação objetiva e estrutura otimizada para transformar visitantes em pacientes.
