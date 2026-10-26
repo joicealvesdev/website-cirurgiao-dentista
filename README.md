@@ -3,6 +3,8 @@
 Landing page profissional criada em React + TypeScript com foco em conversão para agendamento por WhatsApp, apresentação da formação e áreas de atuação, além de reforçar a confiança em um consultório odontológico.
 ## Prévia do projeto
 
+## Prévia do projeto
+
 ![Site profissional do Dr. José Artur — versões clara e escura](./public/preview-site-dr-jose-artur.png)
 
 ## Visão geral
